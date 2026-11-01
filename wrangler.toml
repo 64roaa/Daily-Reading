@@ -6,3 +6,8 @@ compatibility_date = "2026-11-01"
 directory = "."
 binding = "ASSETS"
 run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "daily-reading-db"
+database_id = "f8ada3b3-c614-4263-be62-79a7dbf5f483"
