@@ -1,0 +1,7 @@
+src/**
+functions/**
+wrangler.toml
+schema.sql
+README.md
+.gitignore
+.assetsignore
