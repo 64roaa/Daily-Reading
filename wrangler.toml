@@ -1,3 +1,8 @@
-name = "daily-reading"
-pages_build_output_dir = "."
+name = "broad-rice-43f2"
+main = "src/index.js"
 compatibility_date = "2026-11-01"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
