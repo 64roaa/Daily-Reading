@@ -50,3 +50,4 @@ The current site imports legacy localStorage counts into D1 once when that brows
 - Do not upload a Flask app or `requirements.txt`; Cloudflare Pages Functions run on Cloudflare's Workers runtime, not as a persistent Python server.
 - Keep the D1 database ID private to your deployment configuration; never put secrets in front-end JavaScript.
 - Use a custom domain only after the Pages deployment is working.
+- Cloudflare Workers deployment configured.
